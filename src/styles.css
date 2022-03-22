@@ -1,0 +1,98 @@
+:root {
+  --dark: #16191c;
+  --dark-x: #1e2126;
+  --light: #ffffff;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url(https://github.com/Joabulla07/Proyecto2020-Python/blob/gh-pages/Proyecto2020/gestionAr/apps/users/static/static_inicio/portada.jpg?raw=true);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+nav {
+  background-color: rgb(37, 37, 37);
+}
+
+.logo {
+  max-height: 70px;
+  max-width: 50px;
+  padding: 0px;
+  margin-left: 0px;
+  float: left;
+}
+
+.izquierda {
+  float: left;
+  padding: 15px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 900;
+  color: #ffffff;
+}
+ul {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  padding: 15px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/*Header*/
+
+.header {
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+  color: white;
+}
+
+footer {
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 2rem;
+  background: #303841;
+  border-top: 4px solid #be3144;
+  color: white;
+  font-size: 20px;
+}
+
+footer a {
+  color: skyblue;
+}
+
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}

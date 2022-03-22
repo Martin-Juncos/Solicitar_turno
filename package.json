@@ -1,0 +1,46 @@
+{
+  "name": "gestionar",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.35",
+    "@fortawesome/free-solid-svg-icons": "5.15.3",
+    "@fortawesome/react-fontawesome": "0.1.14",
+    "@material-ui/core": "4.12.0",
+    "@react-google-maps/api": "2.2.0",
+    "@smooth-ui/core-sc": "11.1.5",
+    "bootstrap": "5.0.2",
+    "google-maps-react": "2.0.6",
+    "react": "17.0.2",
+    "react-bootstrap": "1.6.1",
+    "react-bootstrap-dropdown-menu": "1.1.23",
+    "react-bootstrap-hooks-alert": "1.0.4",
+    "react-dom": "17.0.2",
+    "react-facebook": "8.1.4",
+    "react-google-button": "0.7.2",
+    "react-helmet": "6.1.0",
+    "react-image-gallery": "1.1.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.0",
+    "react-scroll-motion": "0.2.1",
+    "reactstrap": "8.9.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
